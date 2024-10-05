@@ -1,0 +1,36 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 610010740764333,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "NewGame"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 646574856860415,
+					"parameters": {
+						"layout": "Escena 2"
+					}
+				},
+				{
+					"type": "script",
+					"script": "\n"
+				}
+			],
+			"sid": 934511537043376
+		}
+	],
+	"sid": 326558040823518
+}
