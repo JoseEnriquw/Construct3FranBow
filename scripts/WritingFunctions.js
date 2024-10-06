@@ -1,26 +1,8 @@
-// Índice para controlar el texto actual
-export let textoIndice = 0;
-
-// Índice para controlar la posición actual en el texto
-export let letraIndice = 0;
-
-// Velocidad en milisegundos entre cada letra
-export const velocidadEscritura = 100; // Puedes ajustar este valor
-
-// Tiempo que el texto permanece en pantalla después de ser escrito (en milisegundos)
-export const tiempoPermanencia = 3000; // 5 segundos
-
-// Nombre del layout donde se debe ejecutar el efecto
-export const layoutObjetivo = "Escena 2"; // Cambia esto por el nombre exacto de tu layout
-
-// Variable para controlar el timeout activo
-export let timeoutID = null;
-
-// Variable para guardar el nombre del layout actual
-export let layoutActual = "";
-
-// Variable para evitar reiniciar el efecto si ya se ha iniciado en el layout actual
-export let efectoIniciado = false;
+let textoIndice = 0;
+let letraIndice = 0;
+const velocidadEscritura = 40; // Puedes ajustar este valor
+const tiempoPermanencia = 3000; // 5 segundos
+let timeoutID = null;
 
 export function escribirTexto(textos,runtime) {
 
@@ -30,6 +12,8 @@ export function escribirTexto(textos,runtime) {
             // Actualiza el texto del objeto Texto1
             const textoObjeto = runtime.objects.ItFeelsLike.getFirstInstance();
             textoObjeto.text = textoActual.substring(0, letraIndice);
+			const currentAnimation=runtime.objects.Escena2fondo1.getFirstInstance().animationName;
+			console.log(currentAnimation);
             letraIndice++;
             // Llama a esta función de nuevo después de 'velocidadEscritura' milisegundos
             timeoutID = setTimeout(() => escribirTexto(textos, runtime), velocidadEscritura);
@@ -50,7 +34,6 @@ export function escribirTexto(textos,runtime) {
     } else {
         // Todos los textos han sido mostrados
         console.log("Se han mostrado todos los textos.");
-        efectoIniciado = false; // Permitimos que el efecto se pueda reiniciar si volvemos a este layout
 		textoIndice=0
     }
 }

@@ -45,7 +45,7 @@
 					"type": "Escena2fondo1",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation1",
+						"initial-animation": "Animation2",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -54,14 +54,13 @@
 					"sid": 991473085793735,
 					"tags": "",
 					"instanceVariables": {
-						"animationN": 0,
-						"State": "FirstImg"
+						"AnimationTime": "[     {         \"Id\": 0,         \"Time\": 12     },     {         \"Id\": 1,         \"Time\": 12     },     {         \"Id\": 2,         \"Time\": 12     },     {         \"Id\": 3,         \"Time\": 8     } ]"
 					},
 					"behaviors": {
 						"Desvanecer": {
 							"properties": {
 								"fade-in-time": 3,
-								"wait-time": 30,
+								"wait-time": 240,
 								"fade-out-time": 1,
 								"destroy": true,
 								"enabled": true,
@@ -76,7 +75,7 @@
 					"world": {
 						"x": 420,
 						"y": 217,
-						"width": 526,
+						"width": 529.6338514680483,
 						"height": 352,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -160,9 +159,9 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 321,
+						"x": 189,
 						"y": 398,
-						"width": 200,
+						"width": 482,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
