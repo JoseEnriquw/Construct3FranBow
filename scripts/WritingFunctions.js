@@ -1,7 +1,7 @@
 let textoIndice = 0;
 let letraIndice = 0;
 const velocidadEscritura = 40; // Puedes ajustar este valor
-const tiempoPermanencia = 3000; // 5 segundos
+const tiempoPermanencia = 3000; // 3 segundos
 let timeoutID = null;
 
 export function escribirTexto(textos,runtime) {
