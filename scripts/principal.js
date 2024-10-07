@@ -2,7 +2,7 @@ import { escribirTexto } from "./WritingFunctions.js";
 
 const states = [
 	{ id:0, text: [ "Everything's fine..."], time: 6000,timeText: 3000 },  // 5000 ms = 5 segundos 
-	{ id:1, text: ["It feels like heaven"], time: 5500, WaitMore: 2500,timeText: 3000  },     // 6000 ms = 6 segundos
+	{ id:1, text: ["It feels like heaven"], time: 5000, WaitMore: 2000,timeText: 3000  },     // 6000 ms = 6 segundos
 	{ id:2, text: ["I see my parents..."], time: 3500, },                           // 4000 ms = 4 segundos
 	{ id:3, text: null, time: 1500 } ,                                             // 3000 ms = 3 segundos
 	{ id:4, text: null, time: 1500 },
@@ -35,15 +35,15 @@ const states = [
 	{ id:31, text: null, time: 3000 },
 	{ id:32, text: null, time: 3000 },
 	{ id:33, text: null, time: 3000 },
-	{ id:34, text: null, time: 3000 },
-	{ id:35, text: null, time: 3000 },
-	{ id:36, text: null, time: 3000 },
-	{ id:37, text: null, time: 3000 },
-	{ id:38, text: null, time: 3000 },
-	{ id:39, text: null, time: 3000 },
-	{ id:40, text: null, time: 3000 },
-	{ id:41, text: null, time: 3000 },
-	{ id:42, text: null, time: 3000 }];
+	{ id:34, text: null, time: 2000 },
+	{ id:35, text: null, time: 2000 },
+	{ id:36, text: null, time: 2000 },
+	{ id:37, text: null, time: 2000 },
+	{ id:38, text: null, time: 2000 },
+	{ id:39, text: null, time: 2000 },
+	{ id:40, text: null, time: 2000 },
+	{ id:41, text: null, time: 2000 },
+	{ id:42, text: null, time: 2000 }];
 
 globalThis.OnStartLayout = function (runtime) {
   if (runtime.layout.name === "Escena 2") {

@@ -276,14 +276,14 @@
 				"frames": [
 					{
 						"width": 1158,
-						"height": 1048,
+						"height": 950,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 9372669,
+						"imageSpriteId": 2515480,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""

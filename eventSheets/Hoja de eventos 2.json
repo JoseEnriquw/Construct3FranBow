@@ -12,6 +12,18 @@
 			],
 			"actions": [
 				{
+					"id": "play",
+					"objectClass": "AudioEscena2",
+					"sid": 846855369690102,
+					"parameters": {
+						"audio-file": "Z Mobile  Music Editor_2024_10_06_10_18_59",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"type": "script",
 					"script": "console.log(`Eventoooo y scene: ${runtime.layout.name}!!!!!`)\n\nglobalThis.OnStartLayout(runtime);"
 				}

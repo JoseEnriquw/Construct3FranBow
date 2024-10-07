@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
@@ -52,7 +59,8 @@
 			"FondoNegro",
 			"EveryThingsFine",
 			"Sprite",
-			"ItFeelsLike"
+			"ItFeelsLike",
+			"AudioEscena2"
 		],
 		"subfolders": []
 	},
@@ -103,7 +111,16 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "Z Mobile  Music Editor_2024_10_06_10_18_59.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 978527608501676,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {

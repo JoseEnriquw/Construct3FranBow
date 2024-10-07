@@ -1,0 +1,24 @@
+{
+	"name": "AudioEscena2",
+	"plugin-id": "Audio",
+	"sid": 384359890921415,
+	"singleglobal-inst": {
+		"type": "AudioEscena2",
+		"properties": {
+			"timescale-audio": "off",
+			"save-load": "all",
+			"play-in-background": false,
+			"latency-hint": "interactive",
+			"enable-multiple-tags": true,
+			"panning-model": "hrtf",
+			"distance-model": "inverse",
+			"listener-z-height": 600,
+			"reference-distance": 600,
+			"maximum-distance": 10000,
+			"roll-off-factor": 1
+		},
+		"uid": 7,
+		"sid": 345606758239883,
+		"tags": ""
+	}
+}
