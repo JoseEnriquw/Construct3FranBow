@@ -43,7 +43,7 @@ const states = [
 	{ id:39, text: null, time: 2000 },
 	{ id:40, text: null, time: 2000 },
 	{ id:41, text: null, time: 2000 },
-	{ id:42, text: null, time: 2000 }];
+	{ id:42, text: null, time: 6000 }];
 
 globalThis.OnStartLayout = function (runtime) {
   if (runtime.layout.name === "Escena 2") {
@@ -55,6 +55,8 @@ globalThis.OnStartLayout = function (runtime) {
 function ExecuteState(index, runtime,fondo) {
   if (index >= states.length) {
     console.log("No more states to execute.");
+	runtime.goToLayout("Escena 3");
+
     return;}
   const state = states[index];
     console.log(`Handling state texts: ${state.text}  and index ${index}`);

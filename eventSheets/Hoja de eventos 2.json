@@ -14,13 +14,13 @@
 				{
 					"id": "play",
 					"objectClass": "AudioEscena2",
-					"sid": 846855369690102,
+					"sid": 298868065864076,
 					"parameters": {
-						"audio-file": "Z Mobile  Music Editor_2024_10_06_10_18_59",
+						"audio-file": "AudioIntro",
 						"loop": "not-looping",
 						"volume": "0",
 						"stereo-pan": "0",
-						"tag-optional": "\"\""
+						"tag-optional": "\"AudioIntro\""
 					}
 				},
 				{
@@ -29,6 +29,32 @@
 				}
 			],
 			"sid": 355934131141557
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 935159166014547,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SkipIntro"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 979897152266352,
+					"parameters": {
+						"layout": "Escena 3"
+					}
+				}
+			],
+			"sid": 176804815105682
 		}
 	],
 	"sid": 539170806075206

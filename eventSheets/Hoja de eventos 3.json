@@ -1,0 +1,27 @@
+{
+	"name": "Hoja de eventos 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 936582765301521
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "AudioEscena2",
+					"sid": 183583651359421,
+					"parameters": {
+						"tag": "\"AudioIntro\""
+					}
+				}
+			],
+			"sid": 656788070334902
+		}
+	],
+	"sid": 293938754620381
+}

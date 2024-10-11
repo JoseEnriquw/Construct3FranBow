@@ -60,7 +60,9 @@
 			"EveryThingsFine",
 			"Sprite",
 			"ItFeelsLike",
-			"AudioEscena2"
+			"AudioEscena2",
+			"Sprite2",
+			"SkipIntro"
 		],
 		"subfolders": []
 	},
@@ -73,14 +75,16 @@
 	"layouts": {
 		"items": [
 			"Escena 1",
-			"Escena 2"
+			"Escena 2",
+			"Escena 3"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 2",
+			"Hoja de eventos 3"
 		],
 		"subfolders": []
 	},
@@ -113,7 +117,7 @@
 		"music": {
 			"items": [
 				{
-					"name": "Z Mobile  Music Editor_2024_10_06_10_18_59.webm",
+					"name": "AudioIntro.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 978527608501676,
 					"file-info": {
